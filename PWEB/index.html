@@ -97,15 +97,37 @@
                 que surgem na maré baixa. Com barreiras de corais e vida marinha exuberante, é ideal para atividades como snorkeling e mergulho.<br>
                 Tanto o Caminho da Serra quanto o Mar Vermelho são destinos imperdíveis para quem quer explorar as belezas naturais e culturais de Alagoas.
            </p>
+           <br>
+           <!--formulário que envia dados ao servidor-->
            <form action="#" method="post">
+
+            <!--rótulo a um campo de entrada de formulário-->
             <label for="nome">Nome: </label>
+            <!--cria um campo de texto para que o usuário digite seu nome-->
             <input type="text" id="nome" nome="nome">
+
             <label for = "email"> Email: </label>
+            <!--define um campo de entrada de e-mail. O navegador valida automaticamente o endereço de e-mail-->
             <input type="email" id="email" nome="email">
+
             <label for="senha" > Senha: </label>
+            <!--campo de senha-->
             <input type="password" id="senha" name="senha">
+
+            <!--botão de envio de formulário-->
             <button type="submit" > Enviar</button>
-           </form>
+
+            <!--botão que permite limpar os valores de todos os campos de um formulário-->
+            <button type="reset" > Limpar</button>
+</form>
+            <form action="#" method="post">
+                <p>Como foi sua experiência?</p>
+                <input type="radio" id="excelente" nome="experiência" value="excelente">
+                <label for = "excelente" >Excelente</label>
+                <input type="radio" id="ruim" nome="experiência" value="ruim">
+                <label for="ruim">Ruim </label>
+            </form>
+           
 
 </body>
 
