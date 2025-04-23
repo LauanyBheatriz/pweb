@@ -1,0 +1,18 @@
+body{
+    font-family: "Playwrite RO",sans-serif;
+    /*sans-serif = caso não carregue a outra fonte ele irá carregar essa */
+}
+p{
+    color: blueviolet;
+}
+
+#paragrafo {
+    color: aqua;
+    font-size: 20px;
+}
+
+.paragrafo{
+    color: cadetblue;
+    font-size: 25px;
+    font-weight: bold;
+}
